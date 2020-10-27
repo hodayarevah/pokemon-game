@@ -1,0 +1,56 @@
+﻿
+
+body {
+    /*height: 100%;
+    width: 100%;*/
+    background-image: url('../images/pokemonback.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+#sound-message
+{
+		margin-top:20px;
+		margin-left:20px;
+}
+#sound-message a
+{
+		font-size: 18px;
+		color: #FFFFFF;
+		font-weight: bold;
+		background-color:black;
+		padding: 10px;
+
+}
+#sound-message a:visited
+{
+		color: #FFFFFF;
+}
+
+
+.buttons-list {
+    margin-right: 47%;
+    margin-top: 23%;
+    float: right;
+}
+    .buttons-list input[type=button] {
+        background-color: blue;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        padding: 38px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+	

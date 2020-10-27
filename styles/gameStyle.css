@@ -1,0 +1,268 @@
+﻿
+
+#progress2 {
+    border-radius: 34px;
+    position: absolute;
+    left: 390px;
+    top: 396px;
+}
+#progress1 {
+    border-radius: 34px;
+    position: absolute;
+    left: 798px;
+    top: 397px;
+}
+
+#titlepokemon {
+    height: 100px;
+    width: 400px;
+}
+#title{
+    margin-left: 474px;
+    margin-top: 31px;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/gamescene1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    font-family: 'Bangers';
+}
+.choose2heroes {
+    width: 402px;
+    border-radius: 50%;
+    transform: rotate(-50deg);
+    left: 371px;
+    top: 36px;
+    position: absolute;
+}
+h1 span {
+    font: 26px Monaco, MonoSpace;
+    height: 216px;
+    position: absolute;
+    width: 20px;
+    left: -19px;
+    top: 102px;
+    font-family: fantasy;
+    transform-origin: bottom center;
+}
+h2 {
+    color: red;
+    font: bold;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+}
+
+.char1 {
+    transform: rotate(6deg);
+}
+
+.char2 {
+    transform: rotate(12deg);
+}
+
+.char3 {
+    transform: rotate(18deg);
+}
+
+.char4 {
+    transform: rotate(24deg);
+}
+
+.char5 {
+    transform: rotate(30deg);
+}
+
+.char6 {
+    transform: rotate(36deg);
+}
+
+.char7 {
+    transform: rotate(42deg);
+}
+
+.char8 {
+    transform: rotate(48deg);
+}
+
+.char9 {
+    transform: rotate(54deg);
+}
+
+.char10 {
+    transform: rotate(60deg);
+}
+
+.char11 {
+    transform: rotate(66deg);
+}
+
+.char12 {
+    transform: rotate(72deg);
+}
+
+.char13 {
+    transform: rotate(78deg);
+}
+
+.char14 {
+    transform: rotate(84deg);
+}
+
+.char15 {
+    transform: rotate(90deg);
+}
+
+.char16 {
+    transform: rotate(96deg);
+}
+.char17 {
+    transform: rotate(102deg);
+}
+
+#pokadur img {
+    top: 186px;
+    height: 273px;
+    position: absolute;
+    left: 532px;
+}
+#gif img {
+    width: 590px;
+    height: 356px;
+    position: absolute;
+    top: 22px;
+    left: 376px;
+}
+
+tapme {
+    position: absolute;
+    left: 506px;
+    bottom: 158px;
+}
+
+
+.red-border {
+    border-style: solid;
+    border-color: red;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+#match {
+    position: absolute;
+    top: 160px;
+    left: 900px;
+}
+
+    #match img {
+        width: 147px;
+        margin-right: 102px;
+    }
+
+#computer {
+    height: 360px;
+    width: 249px;
+    position: absolute;
+    top: 107px;
+    left: 111px;
+}
+#meplayer {
+    position: absolute;
+    height: 327px;
+    width: 239px;
+    top: 50px;
+    right: -50px;
+}
+
+#yourplayer {
+    position: absolute;
+    height: 327px;
+    width: 239px;
+    top: 107px;
+    right: 148px;
+}
+
+#pokemon-options {
+    position: absolute;
+    bottom: 48px;
+    left: 38px;
+}
+    #pokemon-options img {
+        width: 77px;
+        margin-left: 12px;
+    }
+
+#pokemon-options-me {
+    position: absolute;
+    bottom: 48px;
+    left: 870px;
+}
+   
+    #pokemon-options-me img {
+        width: 77px;
+        margin-left: 12px;
+    }
+.buttons-list {
+    position: absolute;
+    margin-right: 20%;
+    margin-top: 50px;
+    float: right;
+}
+
+    .buttons-list input[type=button] {
+        position: absolute;
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+
+
+.attack-option {
+    text-align: center;
+    padding: 9px;
+    font-family: 'Bangers';
+    font-size: 15px;
+ 
+}
+.attac-div {
+    position: absolute;
+    left: 560px;
+    bottom: 14px;
+}
+.disabledbutton {
+    pointer-events: none;
+}
+#effcet2 {
+    height: 360px;
+    width: 249px;
+    position: absolute;
+    top: 10px;
+    left: -400px;
+}
+#gif h2 {
+    position: absolute;
+    left: 527px;
+    bottom: 239px;
+}
+#effcet {
+    position: absolute;
+    height: 327px;
+    width: 239px;
+    top: 50px;
+    right: -50px;
+}

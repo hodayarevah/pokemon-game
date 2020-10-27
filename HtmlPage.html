@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <link href="styles/StyleSheet.css" rel="stylesheet" />
+    <script src="scripts/sound.js"></script>
+    <script>
+        var music;
+        function playOpenningMusic() {
+            if (!music) {
+                music = new sound('sounds/openning.mp3');
+                music.play();
+                document.getElementById('sound-message').style.display = 'none';
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="sound-message"><a href="javascript:void(0)" onclick="playOpenningMusic()">Click here to music.</a></div>
+        <div class="buttons-list">
+            <div>
+                <input type="button" value="Start Game" onclick="window.location.href='startgame.html'" />
+            </div>
+           
+        </div>
+
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
